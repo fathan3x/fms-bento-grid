@@ -44,7 +44,7 @@ export function App() {
         </article>
 
         {/* 2 */}
-        <article className="lg:row-span-2 lg:col-start-2 lg:row-start-3 p-8 bg-white rounded-lg flex flex-col gap-4 lg:gap-0">
+        <article className="lg:row-span-2 lg:col-start-2 lg:row-start-3 p-8 bg-white rounded-lg flex flex-col gap-4 lg:gap-0 overflow-hidden">
           <div className="lg:w-70">
             <img src={multiplePlatforms} className="w-full h-full" />
           </div>
